@@ -50,7 +50,8 @@ const signIn = (email,password) => {
     createUser,
     SignIn,
     logOut,
-    loding
+    loding,
+    signIn
   };
 
   return <AuthContex.Provider value={authInfo}>{children}</AuthContex.Provider>;
