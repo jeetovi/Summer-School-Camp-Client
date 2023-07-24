@@ -12,6 +12,8 @@ import Regester from "./Components/Regesters/Regester";
 import Instroctor from "./Components/Instoctors/Instroctor";
 import Class from "./Components/Clesses/Class";
 import AuthPorvidets from "./Components/PrivetRouter/AuthPorvidets";
+import PrivetRouter from "./Components/PrivetRouter/PrivetRouter";
+import Dasbord from "./Components/DashBords/Dasbord";
 
 const router = createBrowserRouter([
   {
@@ -33,11 +35,15 @@ const router = createBrowserRouter([
        }
        ,{
         path:'/ins',
-        element: <Instroctor></Instroctor>
+        element:  <PrivetRouter><Instroctor></Instroctor></PrivetRouter>
        },
        {
         path:'/class',
-        element:<Class></Class>
+        element: <PrivetRouter><Class></Class></PrivetRouter>
+       },
+       {
+        path:'/dasbord',
+        element:<Dasbord></Dasbord>
        }
       
     ]

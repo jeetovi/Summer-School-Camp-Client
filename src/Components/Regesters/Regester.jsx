@@ -20,6 +20,8 @@ const Regester = () => {
             // Signed in 
             const user = userCredential.user;
             console.log(user)
+            form.reset();
+            
             // ...
           })
           .catch((error) => {

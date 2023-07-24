@@ -1,6 +1,15 @@
+import { useContext } from "react";
 import { Link } from "react-router-dom";
+import { AuthContex } from "../PrivetRouter/AuthPorvidets";
 
 const Header = () => {
+  const {user , logOut} = useContext (AuthContex);
+  const handleLogOUt  = () => {
+    logOut()
+    .then(() => {})
+    .catch (error => console.error(error))
+  }
+
   return (
     <div>
       <div className="navbar bg-violet-400">
@@ -41,6 +50,15 @@ const Header = () => {
             <Link className="btn btn-ghost normal-case text-x2" to="/reg">
               Regester
             </Link>
+              {/* ON Auth Change  */}
+           {
+            user ? <>
+            <span className="mt-3 text-red-600 font-bold">{user.email}</span>
+            <button  onClick={handleLogOUt} className="btn 
+             mt-3  font-bold btn-xs"> SignOut</button>
+            
+            </> : <Link className="mt-3  font-bold" to='/login'> SignIn</Link>
+           }
             </ul>
           </div>
          <Link className="">
@@ -58,13 +76,28 @@ const Header = () => {
             <Link className="btn btn-ghost normal-case text-x2" to="/class">
              Classes
             </Link>
+           { user && <Link className="btn btn-ghost normal-case text-x2" to="/class">
+             Dashbord
+            </Link> }
+
+
             <Link className="btn btn-ghost normal-case text-x2" to="/login">
               Login
             </Link>
             <Link className="btn btn-ghost normal-case text-x2" to="/reg">
               Regester
             </Link>
-           
+           {/* ON Auth Change  */}
+           {
+            user ? <>
+            <span className="mt-3 text-red-600 font-bold">{user.email}</span>
+            <button  onClick={handleLogOUt} className="btn 
+             mt-3  font-bold btn-xs"> SignOut</button>
+            
+            </> : <Link className="mt-3  font-bold" to='/login'> SignIn</Link>
+           }
+    
+
           </ul>
         </div>
         <div className="navbar-end">
