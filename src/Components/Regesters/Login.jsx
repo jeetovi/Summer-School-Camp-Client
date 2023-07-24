@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { AuthContex } from "../PrivetRouter/AuthPorvidets";
 
 const Login = () => {
-    const {SignIn} = useContext(AuthContex)
+    const {SignIn, signInGoogle} = useContext(AuthContex)
   const handleLogin = (event) => {
     event.preventDefault();
     const form = event.target;
@@ -25,6 +25,21 @@ const Login = () => {
       });
   };
 
+   const handleGoogle = () => {
+    signInGoogle
+    .then((userCredential) => {
+        // Signed in 
+        const user = userCredential.user;
+        console.log(user)
+         
+        // ...
+      })
+      .catch((error) => {
+        console.log(error)
+        
+        // ..
+      });
+   }
   return (
     <div>
       <div className="hero min-h-screen bg-base-200">
@@ -75,6 +90,9 @@ const Login = () => {
                 New to this wesite
               </button>
             </Link>
+            <div className=" ml-14 mb-4">
+            <button onClick={handleGoogle} className="btn mr-5 btn-wide font-bold  bg-amber-500">Sign with  <span className="text-xl text-indigo-700">Google</span></button>
+            </div>
           </div>
         </div>
       </div>
