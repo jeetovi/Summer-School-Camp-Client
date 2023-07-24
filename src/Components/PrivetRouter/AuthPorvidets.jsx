@@ -5,6 +5,7 @@ import {
   getAuth,
   onAuthStateChanged,
   signInWithEmailAndPassword,
+  signInWithPopup,
   signOut,
 } from "firebase/auth";
 import app from "../../../firebaseConfig";
@@ -25,6 +26,9 @@ const AuthPorvidets = ({ children }) => {
     return signInWithEmailAndPassword(auth, email, password);
   };
 //   google sign
+const signIn = (email,password) => {
+    return signInWithPopup(auth, googleAuthProvider)
+}
 
   // On Auth change
   useEffect(() => {
