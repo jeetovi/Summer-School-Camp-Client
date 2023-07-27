@@ -1,12 +1,13 @@
-import { useContext } from "react";
-import { AuthContex } from "../PrivetRouter/AuthPorvidets";
+import Class from "../Clesses/Class";
+import Exprence from "./Exprence";
 
   
 const Home = () => {
-    const user = useContext(AuthContex);
+   
     return (
         <div>
-            <h1> This is a home sections {user && <span>{user.Display}</span>}</h1>
+            <Exprence></Exprence>
+            <Class></Class>
         </div>
     );
 };

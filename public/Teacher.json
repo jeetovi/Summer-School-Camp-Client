@@ -1,0 +1,79 @@
+[
+    {
+      "id": 1,
+      "name": "Introduction to Python",
+      "instructor": "John Smith",
+      "button": "Enroll Now",
+      "email": "john.smith@example.com",
+      "phone": "555-123-4567",
+      "imege": "https://img.freepik.com/free-photo/young-woman-teacher-wearing-glasses-standing-near-blackboard-classroom-explaining-lesson-pointing-with-index-finger-blackboard-smiling-confident_141793-133120.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Web Development Fundamentals",
+      "instructor": "Jane Doe",
+      "button": "Enroll Now",
+      "email": "jane.doe@example.com",
+      "phone": "555-987-6543",
+      "imege": "https://img.freepik.com/free-photo/university-study-abroad-lifestyle-concept-satisfied-happy-asian-male-student-glasses-shirt-showing-thumbs-up-approval-likes-studying-college-holding-laptop-backpack_1258-55849.jpg?t=st=1690484306~exp=1690484906~hmac=b6b81a7bf1f97dca5276cd8ba3328fbe232f2ce0efea3b6a6c86ce45d17aeca7"
+    },
+    {
+      "id": 3,
+      "name": "Data Science Essentials",
+      "instructor": "Michael Johnson",
+      "button": "Enroll Now",
+      "email": "michael.johnson@example.com",
+      "phone": "555-789-1234",
+      "imege": "https://as2.ftcdn.net/v2/jpg/00/35/30/85/1000_F_35308534_WGRVXlymcjQqoRXzeWEfVCOfBHBq9YdW.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Graphic Design for Beginners",
+      "instructor": "Sarah Adams",
+      "button": "Enroll Now",
+      "email": "sarah.adams@example.com",
+      "phone": "555-567-8901"
+      ,
+      "imege": "https://as2.ftcdn.net/v2/jpg/01/81/01/63/1000_F_181016374_YxcGzsBZyegirVPOhHNK1stPL8o3oDWC.jpg"
+    
+    },
+    {
+      "id": 5,
+      "name": "Photography Masterclass",
+      "instructor": "David Lee",
+      "button": "Enroll Now",
+      "email": "david.lee@example.com",
+      "phone": "555-234-5678",
+      "imege": "https://as2.ftcdn.net/v2/jpg/03/88/94/19/1000_F_388941922_j9ItVMKpwUsqkEFQ3PdbuDlbgBZrApck.jpg"
+    }
+    ,
+    {
+      "id": 5,
+      "name": "Photography Masterclass",
+      "instructor": "David Lee",
+      "button": "Enroll Now",
+      "email": "david.lee@example.com",
+      "phone": "555-234-5678",
+      "imege": "https://img.freepik.com/free-photo/portrait-female-teacher-holding-notepad-green_140725-149620.jpg?t=st=1690484570~exp=1690485170~hmac=8d2042809e9bf0534ecf988a46c80b83c090cc09122e2b5bdb9b4fba61b39dff"
+    }
+    ,
+    {
+      "id": 5,
+      "name": "Photography Masterclass",
+      "instructor": "David Lee",
+      "button": "Enroll Now",
+      "email": "david.lee@example.com",
+      "phone": "555-234-5678",
+      "imege": "https://as2.ftcdn.net/v2/jpg/04/70/73/69/1000_F_470736978_lfeHHrchljCz5lOB5hA82bNpHl8ZekWr.jpg"
+    }
+    ,
+    {
+      "id": 5,
+      "name": "Photography Masterclass",
+      "instructor": "David Lee",
+      "button": "Enroll Now",
+      "email": "david.lee@example.com",
+      "phone": "555-234-5678",
+      "imege": "https://img.freepik.com/free-photo/senior-male-professor-holding-notebook-standing-against-blackboard_23-2148200961.jpg?t=st=1690484499~exp=1690485099~hmac=54000ffd26fa1a5f06cdf4c72c0d4cceef916a4c8999374b53f19df21c91b4d0"
+    }
+  ]

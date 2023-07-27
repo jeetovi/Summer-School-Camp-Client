@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Beginner's Drawing",
+    "instructor": "Emma Johnson",
+    "available": 15,
+    "price": 149.99,
+    "location": "Art Center A",
+    "button": "Enroll Now",
+    "image": "https://img.freepik.com/free-vector/art-craft-lessons-banners_1284-10973.jpg?w=2000"
+  },
+  {
+    "id": 2,
+    "name": "Portrait Sketching",
+    "instructor": "David Lee",
+    "available": 10,
+    "price": 199.99,
+    "location": "Art Studio B",
+    "button": "Enroll Now",
+    "image": "https://media.istockphoto.com/id/1145883636/vector/art-class-workshop-template-design-kids-art-craft-education-creativity-class-concept-vector.jpg?s=612x612&w=0&k=20&c=DFE5nnGybu24Ey_U5IGEO-bkdk0CMa6VKBZQ6JlYQU0="
+  },
+  {
+    "id": 3,
+    "name": "Watercolor Landscapes",
+    "instructor": "Sophia Adams",
+    "available": 8,
+    "price": 179.99,
+    "location": "Art Hall C",
+    "button": "Enroll Now",
+    "image": "https://img.freepik.com/premium-vector/art-class-studio-course-school-education-banner-poster-with-black-chalkboard-background-hand-drawn-letters-pencil-brush-paints_155957-22.jpg?w=2000"
+  },
+  {
+    "id": 4,
+    "name": "Cartoon Drawing",
+    "instructor": "Michael Smith",
+    "available": 12,
+    "price": 129.99,
+    "location": "Art Center D",
+    "button": "Enroll Now",
+    "image": "https://cdn3.vectorstock.com/i/1000x1000/28/52/art-class-template-creativity-concept-vector-6282852.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Still Life Pencil Art",
+    "instructor": "Olivia Davis",
+    "available": 20,
+    "price": 149.99,
+    "location": "Art Studio E",
+    "button": "Enroll Now",
+    "image": "https://img.freepik.com/premium-psd/art-class-flyer_710940-3620.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Portrait Sketching",
+    "instructor": "David Lee",
+    "available": 10,
+    "price": 199.99,
+    "location": "Art Studio B",
+    "button": "Enroll Now",
+    "image": "https://media.istockphoto.com/id/1145883636/vector/art-class-workshop-template-design-kids-art-craft-education-creativity-class-concept-vector.jpg?s=612x612&w=0&k=20&c=DFE5nnGybu24Ey_U5IGEO-bkdk0CMa6VKBZQ6JlYQU0="
+  }
+]
