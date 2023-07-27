@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+ 
 
  
 
@@ -30,6 +31,7 @@ const Card = ({clas}) => {
   </Link>
 </div>
 </div>
+ 
 </div>
 
    

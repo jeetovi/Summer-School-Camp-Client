@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import InstroctorCard from "./InstroctorCard";
+import Exprence from "../Home/Exprence";
+import Tab from "../Home/Tab";
 
  
 
@@ -33,6 +35,10 @@ const Instroctor = () => {
             }
          
         </div>
+       <div className="py-4">
+       <Exprence></Exprence>
+       <Tab></Tab>
+       </div>
       </div>
         
     );

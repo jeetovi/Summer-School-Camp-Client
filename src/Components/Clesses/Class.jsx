@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Card from "./Card";
+import Tab from "../Home/Tab";
 
 const Class = () => {
   const [clases, setClass] = useState([]);
@@ -27,6 +28,7 @@ const Class = () => {
             <Card key={clas.id} clas={clas}></Card>
           ))}
         </div>
+        <Tab></Tab>
       </div>
     </>
   );
