@@ -8,7 +8,7 @@ import Tab from "../Home/Tab";
 const Instroctor = () => {
     const [teachers, setTeachars] = useState([]);
     useEffect(() => {
-        fetch("Teacher.json")
+        fetch("https://summer-school-champ-server-jeetovi.vercel.app/teachers")
           .then((res) => res.json())
           .then((data) => setTeachars(data));
       }, []);

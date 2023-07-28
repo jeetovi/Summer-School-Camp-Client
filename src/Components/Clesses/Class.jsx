@@ -5,7 +5,7 @@ import Tab from "../Home/Tab";
 const Class = () => {
   const [clases, setClass] = useState([]);
   useEffect(() => {
-    fetch("ClassData.json")
+    fetch("https://summer-school-champ-server-jeetovi.vercel.app/classes")
       .then((res) => res.json())
       .then((data) => setClass(data));
   }, []);
