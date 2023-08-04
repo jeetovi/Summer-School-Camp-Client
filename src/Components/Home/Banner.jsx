@@ -30,10 +30,12 @@ const Banner = () => {
                 Tempore!
               </p>
               <div>
-                <button className="btn btn-primary mr-5 mt-3">New Modle</button>
-                <button className="btn btn-outline btn-secondary">
-                  Latest Modle
-                </button>
+                <Link to='/enrol'><button className="btn btn-primary mr-5 mt-3">Enrol Now</button></Link>
+                <Link to='class'><button className="btn btn-outline btn-secondary">
+                   All Classes
+                </button></Link>
+                
+                
               </div>
             </div>
 
@@ -63,10 +65,10 @@ const Banner = () => {
                 Tempore!
               </p>
               <div>
-                <button className="btn btn-primary mr-5 mt-3">New Modle</button>
-                <button className="btn btn-outline btn-secondary">
-                  Latest Modle
-                </button>
+              <Link to='/enrol'><button className="btn btn-primary mr-5 mt-3">Enrol Now</button></Link>
+                <Link to='class'><button className="btn btn-outline btn-secondary">
+                   All Classes
+                </button></Link>
               </div>
             </div>
 
@@ -96,10 +98,10 @@ const Banner = () => {
                 Tempore!
               </p>
               <div>
-                <button className="btn btn-primary mr-5 mt-3">New Modle</button>
-                <button className="btn btn-outline btn-secondary">
-                  Latest Modle
-                </button>
+              <Link to='/enrol'><button className="btn btn-primary mr-5 mt-3">Enrol Now</button></Link>
+                <Link to='class'><button className="btn btn-outline btn-secondary">
+                   All Classes
+                </button></Link>
               </div>
             </div>
 
@@ -129,10 +131,10 @@ const Banner = () => {
                 Tempore!
               </p>
               <div>
-                <button className="btn btn-primary mr-5 mt-3">New Modle</button>
-                <button className="btn btn-outline btn-secondary">
-                  Latest Modle
-                </button>
+              <Link to='/enrol'><button className="btn btn-primary mr-5 mt-3">Enrol Now</button></Link>
+                <Link to='class'><button className="btn btn-outline btn-secondary">
+                   All Classes
+                </button></Link>
               </div>
             </div>
 
@@ -162,16 +164,10 @@ const Banner = () => {
                 Tempore!
               </p>
               <div>
-                <Link to="/alltoy">
-                  <button className="btn btn-primary mr-5 mt-3">
-                    New Modle
-                  </button>
-                </Link>
-                <Link to="/alltoy">
-                  <button className="btn btn-outline btn-secondary">
-                    Latest Modle
-                  </button>
-                </Link>
+              <Link to='/enrol'><button className="btn btn-primary mr-5 mt-3">Enrol Now</button></Link>
+                <Link to='class'><button className="btn btn-outline btn-secondary">
+                   All Classes
+                </button></Link>
               </div>
             </div>
 

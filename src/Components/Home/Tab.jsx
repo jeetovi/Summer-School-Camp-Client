@@ -25,7 +25,7 @@ const Tab = () => {
         <ul className="hidden text-sm font-medium py-8 text-center text-gray-500 divide-x divide-gray-200 rounded-lg shadow sm:flex dark:divide-gray-700 dark:text-gray-400">
           <li className="w-full">
             <Link
-              to="/alltoy"
+              to="/class"
               className="inline-block w-full p-4 text-gray-900 bg-yellow-500 rounded-l-lg focus:ring-4 focus:ring-blue-300 active focus:outline-none dark:bg-gray-700 dark:text-white"
               aria-current="page"
             >
@@ -34,7 +34,7 @@ const Tab = () => {
           </li>
           <li className="w-full ">
             <Link
-              to="/atoy"
+              to="/dasbord"
               className="inline-block w-full p-4 bg-blue-500 hover:text-gray-700 hover:bg-gray-50 focus:ring-4 focus:ring-blue-300 focus:outline-none dark:hover:text-white dark:bg-gray-800 dark:hover:bg-gray-700"
             >
               Dashboard
@@ -42,7 +42,7 @@ const Tab = () => {
           </li>
           <li className="w-full">
             <Link
-              to="/blog"
+              to="/ins"
               className="inline-block w-full p-4 bg-red-500 hover:text-gray-700 hover:bg-gray-50 focus:ring-4 focus:ring-blue-300 focus:outline-none dark:hover:text-white dark:bg-gray-800 dark:hover:bg-gray-700"
             >
               Instructor
@@ -50,10 +50,10 @@ const Tab = () => {
           </li>
           <li className="w-full">
             <Link
-              to="/mytoy"
+              to="/enrol"
               className="inline-block w-full p-4  bg-purple-500 rounded-r-lg hover:text-gray-700 hover:bg-gray-50 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:hover:text-white dark:bg-gray-800 dark:hover:bg-gray-700"
             >
-              Home
+              Enrol Now
             </Link>
           </li>
         </ul>

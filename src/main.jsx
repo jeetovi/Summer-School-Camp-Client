@@ -14,7 +14,9 @@ import Class from "./Components/Clesses/Class";
 import AuthPorvidets from "./Components/PrivetRouter/AuthPorvidets";
 import PrivetRouter from "./Components/PrivetRouter/PrivetRouter";
 import Dasbord from "./Components/DashBords/Dasbord";
-
+import Enrol from "./Components/Home/Enrol";
+import MyCard from "./Components/DashBords/MyCard";
+ 
 const router = createBrowserRouter([
   {
     path: "/",
@@ -38,16 +40,29 @@ const router = createBrowserRouter([
         element:  <PrivetRouter><Instroctor></Instroctor></PrivetRouter>
        },
        {
+        path:'/enrol',
+        element:  <PrivetRouter> <Enrol></Enrol> </PrivetRouter>
+       },
+       {
         path:'/class',
         element: <PrivetRouter><Class></Class></PrivetRouter>
        },
-       {
-        path:'/dasbord',
-        element:<Dasbord></Dasbord>
-       }
       
-    ]
+      
+    ],
+    
   },
+  {
+    path:'dasbord',
+    element:<Dasbord></Dasbord>,
+    children: [
+     {
+      path: 'mycart',
+      element: <MyCard></MyCard>
+     }
+    ]
+
+   } 
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
